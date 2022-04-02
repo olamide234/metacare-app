@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Gelion';
+    src: local(assets/gelion-cufonfonts-webfont);
+    font-weight: 400 500 600;
+    font-style: normal;
+}
+:root {
+    --font-family: 'Gelion', sans-serif;
+    
+    --color-bg: #FFFFFF; /*#E5E5E5;*/
+    --color-text-light: #696D8C;
+    --color-text-dark: #060213;
+    --color-text-purple: #6837EF;
+    --color-text-placeholder: #A3A3C2;
+    --color-icon: #92929D;
+
+    --color-border: #ECEBF5;
+}
