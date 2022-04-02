@@ -10,7 +10,7 @@ function App() {
       </div>
       <div className="App__mainApp">
         {/* <MainApp/> */}
-        What are you talking about
+        <UpperNav/>
       </div>
     </div>
   );
