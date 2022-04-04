@@ -12,6 +12,7 @@ function App() {
         {/* <MainApp/> */}
         <UpperNav/>
         <LowerNav/>
+        <Header/>
       </div>
     </div>
   );

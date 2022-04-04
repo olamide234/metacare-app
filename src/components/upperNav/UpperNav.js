@@ -8,7 +8,7 @@ export default function UpperNav() {
     return (
         <div className="care__upperNav">
             <div className="care__upperNav-left">
-                <input className="" type="text" placeholder="Ask us any question"/>
+                <input type="text" placeholder="Ask us any question"/>
                 <RiSearchLine size={18} color="#A3A3C2" style={{cursor: "pointer"}}/>
             </div>
             <div className="care__upperNav-right">

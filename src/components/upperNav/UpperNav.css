@@ -14,11 +14,12 @@
     padding: 0 1rem;
     background-color: #FAFAFC;
     align-items: center;
+    border-radius: 10px;
 }
-input:focus-visible {
+.care__upperNav-left input:focus-visible {
     outline: none;
 }
-input {
+.care__upperNav-left input {
     height: 100%;
     border: none;
     font-size: 16px;
@@ -28,7 +29,7 @@ input {
     caret-color: #A3A3C2;
     color: #A3A3C2;
 }
-input::placeholder {
+.care__upperNav-left input::placeholder {
     font-weight: 400;
     font-size: 16px;
     color: #A3A3C2;
