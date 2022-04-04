@@ -13,6 +13,7 @@ function App() {
         <UpperNav/>
         <LowerNav/>
         <Header/>
+        <Percentage/>
       </div>
     </div>
   );

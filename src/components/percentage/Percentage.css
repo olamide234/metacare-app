@@ -1,0 +1,12 @@
+.care__percentage{
+    width: 70px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    align-items: center;
+    padding: 4px 12px;
+    margin: 0px 16px;
+    border-radius: 4px;
+    color: #25BB87;
+    background: rgba(37, 187, 135, 0.1);
+}
