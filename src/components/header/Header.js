@@ -14,7 +14,7 @@ export default function Header() {
                 </div>
                 <div className="care__header-content__filter">
                     Filter Options
-                    <BiChevronDown size={18} color="#696D8C" style={{cursor: "pointer"}}/>
+                    <BiChevronDown size={18} color="#060213" style={{cursor: "pointer"}}/>
                 </div>
                 <div className="care__header-content__vertLine"></div>
                 <div className="care__header-content__export">
