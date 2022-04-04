@@ -1,0 +1,19 @@
+.care__month{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    width: 148px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1EB;
+    border-radius: 8px;
+}
+.care__month div {
+    color: var(--color-text-dark);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+}
