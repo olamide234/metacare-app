@@ -11,6 +11,7 @@ function App() {
       <div className="App__mainApp">
         {/* <MainApp/> */}
         <UpperNav/>
+        <LowerNav/>
       </div>
     </div>
   );

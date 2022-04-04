@@ -9,7 +9,7 @@ export default function UpperNav() {
         <div className="care__upperNav">
             <div className="care__upperNav-left">
                 <input className="" type="text" placeholder="Ask us any question"/>
-                <RiSearchLine size={18} color="#A3A3C2"/>
+                <RiSearchLine size={18} color="#A3A3C2" style={{cursor: "pointer"}}/>
             </div>
             <div className="care__upperNav-right">
                 <div className="care__upperNav-right__notif">
@@ -18,7 +18,7 @@ export default function UpperNav() {
                 </div>
                 <div className="care__upperNav-right__circle-down">
                     <div></div>
-                    <BiChevronDown size={18} color="#696D8C"/>
+                    <BiChevronDown size={18} color="#696D8C" style={{cursor: "pointer"}}/>
                 </div>
             </div>
         </div>

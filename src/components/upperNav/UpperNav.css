@@ -48,6 +48,7 @@ input::placeholder {
     height: 24px;
     border-right: 1px solid var(--color-border);
     padding: 0 2rem 0 1rem;
+    cursor: pointer;
 }
 .care__upperNav-right__notif div {
     background: #F25A68;
