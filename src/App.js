@@ -16,6 +16,7 @@ function App() {
         <Percentage/>
         <Month/>
         <Priority bg_color={'#F05D23'}/>
+        <Average text={'Average Response Time'}/>
         <ResponseTime/>
       </div>
     </div>
