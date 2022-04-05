@@ -1,0 +1,30 @@
+.care__priority{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 124px;
+}
+.care__priority-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 92px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    align-items: center;
+    color: var(--color-text-dark);
+    /* margin-left: 8px; */
+}
+.care__priority-main__square{
+    width: 10px;
+    height: 10px;
+    /* background: #F05D23; */
+    border-radius: 2px;
+}
+.care__priority-vertLine{
+    width: 0px;
+    height: 24px;
+    border-right: 1px solid #E1E1EB;
+    margin: 0 16px;
+}

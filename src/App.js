@@ -15,6 +15,8 @@ function App() {
         <Header/>
         <Percentage/>
         <Month/>
+        <Priority bg_color={'#F05D23'}/>
+        <ResponseTime/>
       </div>
     </div>
   );
