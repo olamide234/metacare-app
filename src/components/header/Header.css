@@ -12,6 +12,7 @@
     color: var(--color-text-dark);
 }
 .care__header-content{
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,7 +24,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
-    width: 350px;
+    width: 55%;
     height: 44px;
     background: var(--color-bg);
     border: 1px solid #E1E1EB;
@@ -51,7 +52,7 @@
 .care__header-content__filter{
     display: flex;
     flex-direction: row;
-    width: 160px;
+    width: 30%;
     height: 44px;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +73,7 @@
     margin-right: 16px;
 }
 .care__header-content__export button {
-    padding: 10px 16px;
+    padding: 10px 28.3px; /* 16px; 736ws*/
     width: 105px;
     height: 44px;
     background: #25BB87;
