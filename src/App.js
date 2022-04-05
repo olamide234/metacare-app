@@ -1,5 +1,5 @@
-import {Average, Header, LowerNav, Month, Percentage, Priority, ResponseTime, SideBar, UpperNav} from './components' 
-import {GraphContainer, Graph, MainApp} from './container'
+import {LowerNav, SideBar, UpperNav} from './components' 
+import {MainApp} from './container'
 import './App.css';
 
 function App() {
@@ -12,12 +12,7 @@ function App() {
         {/* <MainApp/> */}
         <UpperNav/>
         <LowerNav/>
-        <Header/>
-        <Percentage/>
-        <Month/>
-        <Priority bg_color={'#F05D23'}/>
-        <Average text={'Average Response Time'}/>
-        <ResponseTime/>
+        <MainApp/>
       </div>
     </div>
   );

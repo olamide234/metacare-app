@@ -1,0 +1,18 @@
+.care__graph-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.care__graph-content__left,
+.care__graph-content__right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.care__graph-content__left-txt{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--color-text-dark);
+}
