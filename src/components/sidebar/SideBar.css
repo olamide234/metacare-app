@@ -3,7 +3,7 @@
 }
 .care__sideBar-contact{
     border: 1px solid var(--color-border);
-    padding: 1rem 0 1rem 6rem;
+    padding: 1rem 0 1rem 20%; /* 6rem; */
     border-radius: .5rem;
     align-items: center;
 }
@@ -59,4 +59,46 @@
 }
 .care__sideBar-menu__container li:nth-child(1){
     color: var(--color-text-dark);
+}
+.care__sideBar-small{
+    display: none;
+}
+@media screen and (max-width: 1025px) {
+    .care__sideBar{
+        padding: 2rem;
+    }
+    .care__sideBar-contact__name,
+    .care__sideBar-menu__tab-admin,
+    .care__sideBar-menu__tab-knowledge,
+    .care__sideBar-menu__tab-training,
+    .care__sideBar-menu__tab-agent,
+    .care__sideBar-menu__tab-help,
+    .care__sideBar-menu__tab-analytics,
+    .care__sideBar-menu__container li {
+        font-size: 1.3rem;
+    }
+    .care__sideBar-contact__email{
+        font-size: 1.1rem;
+    }
+    .care__sideBar-menu{
+        padding-right: 1rem;
+    }
+}
+@media screen and (max-width: 950px) {
+    .care__sideBar{
+        display: none;
+    }
+    .care__sideBar-small{
+        display: grid;
+        padding: 2rem;
+        position: relative;
+    }
+    .care__sideBar-small__part{
+        min-width: 20rem;
+        background-color: var(--color-bg);
+        position: absolute;
+        left: 2rem;
+        padding-right: 2rem;
+        /* top: 1px; */
+    }
 }

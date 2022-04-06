@@ -28,7 +28,7 @@ const mainData = [
 
 export default function MainApp() {
     return (
-        <div>
+        <div className="care_mainApp">
             <Header/>
             <div>
                 {mainData.map((item, index) => (

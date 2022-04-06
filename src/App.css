@@ -14,13 +14,18 @@ body{
 .App{
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .App__sideBar{
     width: 20%;
     border-right: 1px solid var(--color-border);
-    height: 60%;
+    height: 130vh;
 }
 .App__mainApp{
     width: 80%;
+}
+@media screen and (max-width: 950px) {
+    .App__sideBar{
+        width: 8%
+    }
 }

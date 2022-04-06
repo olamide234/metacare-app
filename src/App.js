@@ -9,7 +9,6 @@ function App() {
         <SideBar/>
       </div>
       <div className="App__mainApp">
-        {/* <MainApp/> */}
         <UpperNav/>
         <LowerNav/>
         <MainApp/>
