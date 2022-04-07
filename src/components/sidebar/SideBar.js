@@ -13,11 +13,11 @@ export default function SideBar() {
             </div>
             <div className="care__sideBar-small">
                 {!toggleMenu &&
-                    <RiMenu3Line color="#696D8C" size={27} onClick={() => setToggleMenu(true)} />
+                    <RiMenu3Line color="#696D8C" className="icon" onClick={() => setToggleMenu(true)} />
                 } 
                 {toggleMenu && (
                     <div className="care__sideBar-small__part">
-                        <RiCloseLine color="#696D8C" size={27} style={{margin: '2rem 0'}} onClick={() => setToggleMenu(false)} />
+                        <RiCloseLine color="#696D8C" className="icon" style={{margin: '2rem 0'}} onClick={() => setToggleMenu(false)} />
                         <Menu/>
                     </div>
                 )}

@@ -28,4 +28,7 @@ body{
     .App__sideBar{
         width: 8%
     }
+    .App__mainApp{
+        width: 92%;
+    }
 }

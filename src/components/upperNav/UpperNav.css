@@ -77,3 +77,29 @@
     border-radius: 50%;
     margin-right: .5rem;
 }
+@media screen and (max-width:600px) {
+    .care__upperNav-left{
+        width: 45%;
+    }
+    .care__upperNav-left input,
+    .care__upperNav-left input::placeholder {
+        font-size: 12px;
+        width: 85%;
+    }
+}
+@media screen and (max-width:500px) {
+    .care__upperNav {
+        padding: 1.6rem 2rem 0 1.5rem;
+    }
+    .care__upperNav-right__notif{
+        padding: 0 1rem 0 .5rem;
+    }
+    .care__upperNav-right__circle-down{
+        padding: 0 .5rem 0 1rem;
+    }
+}
+@media screen and (max-width:350px) {
+    .care__upperNav {
+        padding: 1.6rem 1rem 0 1rem;
+    }
+}

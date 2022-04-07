@@ -1,3 +1,7 @@
+.care__graph{
+    display: flex;
+    flex-direction: column;
+}
 .care__graph-content{
     display: flex;
     flex-direction: row;
@@ -15,4 +19,14 @@
     font-size: 18px;
     line-height: 26px;
     color: var(--color-text-dark);
+}
+.care__graph-main{
+    padding: 0 2rem;
+    width: 100%;
+}
+.chart{
+    /* width: 80%;
+    height: 230px; */
+    left: -4.5rem;
+    position: static;
 }

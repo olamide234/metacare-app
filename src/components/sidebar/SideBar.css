@@ -63,6 +63,10 @@
 .care__sideBar-small{
     display: none;
 }
+.icon{
+    width: 27px;
+    height: 27px;
+}
 @media screen and (max-width: 1025px) {
     .care__sideBar{
         padding: 2rem;
@@ -100,5 +104,23 @@
         left: 2rem;
         padding-right: 2rem;
         /* top: 1px; */
+    }
+}
+@media screen and (max-width: 550px) {
+    .icon{
+        width: 15px;
+        height: 15px;
+    }
+    .care__sideBar-small{
+        padding: 2rem 1rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .icon{
+        width: 15px;
+        height: 15px;
+    }
+    .care__sideBar-small{
+        padding: 2rem .5rem;
     }
 }
