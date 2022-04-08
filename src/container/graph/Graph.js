@@ -1,5 +1,5 @@
 import React from 'react'
-import { LineChart, Line, CartesianGrid, XAxis, YAxis, ResponsiveContainer, Tooltip, Legend} from 'recharts';
+import { LineChart, Line, CartesianGrid, XAxis, YAxis, ResponsiveContainer, Tooltip} from 'recharts';
 import './Graph.css'
 import {Month, Percentage, Priority} from '../../components' 
 
@@ -27,15 +27,15 @@ export default function Graph({title, color}) {
                 </div>
             </div>
             <div className="care__graph-main">
-                {/* <ResponsiveContainer width="100%" height="100%">
-                    <LineChart width={1032}  height={230} className="chart" data={data}>
+                {/* <ResponsiveContainer width="100%" height="100%"> */}
+                    {/* <LineChart width={1032}  height={230} className="chart" data={data}>
                         <Line type="monotone" dataKey="rate" stroke={color} />
                         <CartesianGrid stroke="#ECEBF5" />
                         <XAxis dataKey="month" />
                         <YAxis />
                         <Tooltip />
-                    </LineChart>
-                </ResponsiveContainer> */}
+                    </LineChart> */}
+                {/* </ResponsiveContainer> */}
             </div>
         </div>
     )

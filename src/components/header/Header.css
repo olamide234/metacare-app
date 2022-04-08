@@ -84,3 +84,19 @@
     line-height: 24px;
     color: #FFFFFF;
 }
+@media screen and (max-width:850px) {
+    .care__header_title{
+        font-size: 20px;
+    }
+    .care__header-content__search{
+        width: 30%;
+    }
+    .care__header-content__filter{
+        width: 35%;
+        font-size: 12px;
+    }
+    .care__header-content__export button {
+        padding: 10px;
+        width: 85px;
+    }
+}
